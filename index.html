@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >PORTFOLIO - SHRISHIR SRIVATSA </title>
+    <link rel="stylesheet" href="css files/style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="css files/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="css files/phone.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    
+</head>
+<body>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Founder</a></li>
+            <li><a href="#portfolio">Our Clients</a></li>       
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <br><br>
+        <div class="main">
+            <br><br><br><br><br><br><br><br><font color="red"><p class="line-1 anim-typewriter">The Pioneers in<br> App Development</p></font>
+            
+        </div>
+    </section>
+
+    <section id="about">
+        <br><br><br>
+        <div id="pic">
+            <img src="img.jpeg" alt="">
+            <div id="intro">
+                <h2>Shrishir Srivatsa</h1>
+                <p>
+                    Hello, everyone!
+
+My name is Shrishir Srivatsa and I'm from Andhra Pradesh. I'm currently studying Computer Science Engineering at Netaji Subhas University of Technology, and I hope to become a Senior Developer/Programmer one day.
+
+I'm really passionate about coding, and I'm always looking for new ways to learn and improve my skills. I'm also a firm believer of teamwork, and I believe that working together is the best way to achieve success.
+
+I'm excited to start my career and can't wait to see what the future holds for me. I'm confident that I have what it takes to be a good programmer, and I'm looking forward to making a difference in the world.
+
+Thank you for taking the time to get to know me. I hope to see you all soon!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <br><br>
+       <h1 class="headings" >OUR PRESTIGIOUS CLIENTS</h1>
+       <img src="" id="image">
+       <script type="text/javascript">
+        let image = document.getElementById('image');
+        
+        const images = [
+    '/Users/shrishir/Documents/PORTFOLIO/hamleys.jpeg',
+    '/Users/shrishir/Documents/PORTFOLIO/apple.jpeg',
+    '/Users/shrishir/Documents/PORTFOLIO/nike.jpeg',
+    '/Users/shrishir/Documents/PORTFOLIO/ikea.jpeg',
+    '/Users/shrishir/Documents/PORTFOLIO/adidad.jpeg',
+    '/Users/shrishir/Documents/PORTFOLIO/samsung.jpeg',
+       ];
+       setInterval(function(){
+        let random = Math.floor(Math.random() * 6);
+        image.src = images[random]
+       }, 800)
+       </script>
+       
+        
+        
+    </section>
+    
+
+    <section id="services">
+        <br><br>
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <h1 class="headings">Website<br>Designing</h1>
+                <p class="website_design">We design websites.
+                    Web design is the creation of websites and pages to reflect a company's brand and information and ensure a user-friendly experience. 
+                    Appearance 
+                    and design are incorporated as vital elements whether you're designing a website, mobile app or maintaining content on a web page.
+                </p>
+            </div>
+            <div class="box">
+                <h1 class="headings">App<br>Developer</h1>
+                <p class="website_design">We design applications on IOS and Android. 
+                    Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources.</p>
+            </div>
+            <div class="box">
+                <h1 class="headings">Programmer<br>Analyst</h1>
+                <p class="website_design">We can develop company specific programs and even troubleshoot softwares and applications. A programmer analyst specializes in software programming, system analysis, and maintenance of business software applications. Generally, a programmer analyst can write complete computer programs and complex software.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <br><br>
+        <h1 class="headings">CONTACT</h1>
+        <form action="https://formsubmit.co/shrishir@hotmail.com" method="POST" class="form">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name" required>
+            <input type="email" name="email" class="input" placeholder="Enter Your Email ID" required>
+            <input type="hidden" name="_next" value="https://shrishir.github.io/Website/thanks.html" >
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+    <br><br><br>
+    <font size="11"><center><h4 class="">Our Investors</h1></center></font>
+    <section class="sponsor section">
+        <div class="sponsor__container container grid">
+            <div class="sponsor__content">
+                <img src="/Users/shrishir/Downloads/responsive-travel-website-main/assets/img/sponsors1.png" alt="" class="sponsor__img">
+            </div>
+            <div class="sponsor__content">
+                <img src="/Users/shrishir/Downloads/responsive-travel-website-main/assets/img/sponsors2.png" alt="" class="sponsor__img">
+            </div>
+            <div class="sponsor__content">
+                <img src="/Users/shrishir/Downloads/responsive-travel-website-main/assets/img/sponsors3.png" alt="" class="sponsor__img">
+            </div>
+            <div class="sponsor__content">
+                <img src="/Users/shrishir/Downloads/responsive-travel-website-main/assets/img/sponsors4.png" alt="" class="sponsor__img">
+            </div>
+            <div class="sponsor__content">
+                <img src="/Users/shrishir/Downloads/responsive-travel-website-main/assets/img/sponsors5.png" alt="" class="sponsor__img">
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">Follow our Socials</h3>
+                    
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">About</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#about" class="footer__link">About Us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#services" class="footer__link">Features</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Company</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#about" class="footer__link">Founder</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#contact" class="footer__link">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Support</h3>
+                    <ul>
+                        
+                        <li class="footer__item">
+                            <a href="#contact" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2022 SSG TECH. All rigths reserved.</p>
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                    <a href="#" class="footer__terms-link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    
+    
+
+    
+</body>
+</html>
